@@ -1,0 +1,33 @@
+
+
+<p>You're logged in!!</p>
+<p><a href="#/login">Logout</a></a></p>
+
+<ul class="nav nav-tabs">
+	 <li ng-repeat="section in sections" ng-class="{active : isSelected(section)}">
+
+	 	<a ng-click="accounts(section)" ng-init="accounts(section)">{{section.name}}</a>
+     </li>
+
+	
+	
+</ul>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Phone</th>
+        <th>Address</th>
+    </tr>
+
+        
+    <tr ng-repeat="account in list">
+        <td>{{account.ID}}</td>
+        <td>{{account.Name}}</td>
+        <td>{{account.Gender}}</td>
+        <td>{{account.Phone}}</td>
+        <td>{{account.Address}}</td>
+    </tr>
+</table>

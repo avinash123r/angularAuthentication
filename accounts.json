@@ -1,0 +1,38 @@
+{
+    
+        "Myaccounts": [
+            {   
+                "ID": "001",
+               "Name": "Avinash",
+               "Gender": "Male",
+               "Phone":"8073xxxx90",
+               "Address": "Basaveshwar Nagar"
+            }
+            
+        ],
+
+        "Teamaccounts": [
+            {   
+                "ID": "002",
+               "Name": "Guru",
+               "Gender": "Male",
+               "Phone":"8073xxxx93",
+               "Address": "Vijay Nagar"
+            },
+            {   
+                "ID": "003",
+               "Name": "Ashwini",
+               "Gender": "Female",
+               "Phone":"8073xxxx92",
+               "Address": "Govindraj Nagar"
+            },
+            {   
+                "ID": "004",
+               "Name": "Priya",
+               "Gender": "Female",
+               "Phone":"8073xxxx91",
+               "Address": "Maratahalli"
+            }
+
+        ]
+}
